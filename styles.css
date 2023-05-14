@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#searchButton {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#movieList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.movie-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.movie-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.movie-item h2 {
+    margin: 0 0 10px 0;
+}
+
+.movie-item p {
+    margin: 0 0 10px 0;
+}
+
+.movie-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.movie-poster {
+    max-width: 300px;
+    height: auto;
+}
+
+.review-form-container {
+    flex-grow: 1;
+    max-width: 60%;
+}
+
+.review-form-container input,
+.review-form-container textarea {
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.review-form-container textarea {
+    height: 150px;
+}
+
+.movie-item a {
+    margin-right: 1em;
+}
+
+#reviewsContainer {
+    display: flex;
+    align-items: start;
+    width: 80%;
+    margin: auto;
+}
+
+#moviePoster {
+    width: 300px;
+    height: auto;
+    margin-right: 2em;
+}
+
+#reviewsList {
+    flex-grow: 1;
+}
+
+.review-item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.review-item div:first-child {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.review-item div:nth-child(2) {
+    margin-bottom: 1em;
+}
+
+a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.5em;
+    border: 1px solid #000;
+}

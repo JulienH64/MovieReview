@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a Review</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="review-container">
+        <img id="moviePoster" class="movie-poster" src="" alt="Movie poster">
+        <div class="review-form-container">
+            <h1>Write <span id="movieTitle"></span> Review</h1>
+            <form id="reviewForm">
+                <label for="userName">Your Name:</label><br>
+                <input type="text" id="userName" name="userName" required><br>
+                <label for="rating">Rating (1-10):</label><br>
+                <input type="number" id="rating" name="rating" min="1" max="10" step="0.1" required><br>
+                <label for="review">Review:</label><br>
+                <textarea id="review" name="review" required></textarea><br>
+                <input type="submit" value="Submit Review">
+            </form>
+        </div>
+    </div>
+    <a href="index.html">Go back</a>
+    <script src="submitReview.js"></script>
+</body>
+
+</html>
