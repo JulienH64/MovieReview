@@ -35,6 +35,7 @@ document.getElementById('searchButton').addEventListener('click', function () {
                 seeReviewsLink.href = "reviews.html";
                 seeReviewsLink.addEventListener('click', () => {
                     sessionStorage.setItem('movieTitle', movie.title);
+                    sessionStorage.setItem('moviePoster', movie.poster_path);
                 });
                 movieInfoDiv.appendChild(seeReviewsLink);
                 movieDiv.appendChild(movieImg);
